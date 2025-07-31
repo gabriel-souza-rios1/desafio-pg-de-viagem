@@ -2,3 +2,57 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body{
+  background-color: #F5F4F0;
+}
+
+main{
+  margin: 80px auto;
+  width: 1120px;
+}
+
+#trips{
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.sections{
+  color: #E5245E;
+  font-size: 16px;
+  font-weight: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+#trip-image{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+}
+
+.text-trip{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333333;
+}
+
+
+
+#image-trip{
+  display: inline-block;
+  height: 1120px;
+  width: 660px;
+}
+
+img{
+  border-radius: 28px;
+}
