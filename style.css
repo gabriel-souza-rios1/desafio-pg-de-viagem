@@ -76,6 +76,11 @@ main{
   text-align: center;
 }
 
+footer{
+  text-align: center;
+  margin: 161px 0 80px 0;
+}
+
 h1{
   color: #1B1B1B;
   font-size: 36px;
