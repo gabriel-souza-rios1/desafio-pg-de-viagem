@@ -9,6 +9,7 @@ body{
 main{
   margin: 80px auto;
   width: 1120px;
+  box-sizing: border-box;
 }
 
 #trips{
@@ -23,14 +24,6 @@ main{
   padding: 0;
 }
 
-h1{
-  font-size: 36px;
-  font-weight: 800;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 40px;
-}
-
 #trip-image{
   display: block;
   margin: 0 auto;
@@ -41,11 +34,8 @@ h1{
 
 .text-trip{
   text-align: center;
-  margin-bottom: 40px;
-  color: #333333;
-}
-
-
+  margin:24px 0 40px 0;
+} 
 
 #image-trip{
   display: inline-block;
@@ -53,6 +43,78 @@ h1{
   width: 660px;
 }
 
+#destinations-list{
+  margin: 64px 0 40px 0;
+  border-bottom: 1px solid #D9D9D9  ;
+}
+
+.destination{
+  margin-top: 48px;
+}
+
+.history{
+  font-weight: 800;
+  color: #0C51A7;
+}
+
+.couples{
+  font-weight: 800;
+  color: #591B98;
+
+}
+.family{
+  font-weight: 800;
+  color: #E5245E;
+}
+.budgets{
+  font-weight: 800;
+  color: #E95E10;
+  margin-bottom: 40px;
+}
+
+h1{
+  color: #1B1B1B;
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+h2{
+  color: #1B1B1B;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+h3{
+  color: #1B1B1B;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 0;
+  margin: 20px 0 0 3px;
+}
+h4{
+  color: #1B1B1B;
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 16px;
+  margin-bottom: 0px;
+
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+ul{
+  margin: 0 24px ;
+  padding: 0;
+}
+
 img{
-  border-radius: 28px;
+  border-radius: 28px;  
+
 }
